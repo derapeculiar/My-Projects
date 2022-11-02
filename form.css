@@ -1,0 +1,108 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: lightgrey;
+}
+
+.Nav{
+	font-family: 'Sofia', Arial, sans-serif;
+	font-size: 45px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #000;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px !important;
+}
+
+/*-----------FORM SECTION----------*/
+
+.sign-in{
+	position: relative;
+	width: 350px;
+	margin: auto;
+}
+
+.sign-in h1{
+	font-size: 40px;
+	text-align: start;
+	margin-bottom: 20px;
+}
+
+.sign-in label{
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 18px;
+}
+
+.sign-in p{
+	font-size: 20px;
+	margin: 15px;
+}
+
+.formm{
+	font-size: 16px;
+	padding: 15px 10px;
+	width: 100%;
+	border: 0;
+	border-radius: 5px;
+	outline: none;
+}
+
+.btnn{
+	font-size: 18px;
+	font-weight: bold;
+	margin: 5px 0;
+	padding: 8px;
+	width: 50%;
+	border: 0;
+	border-radius: 5px;
+}
+
+.sign-in p{
+	margin-left: -5px;
+}
+
+
+/*----------FOOTER SECTION---------*/
+
+#footer{
+	margin-top: 30px;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding-top: 50px;
+}
+
+.footer-box{
+	padding-bottom: 100px;
+}
+
+.footer-box a{
+	text-decoration: none;
+	color: #000;
+	font-size: 17px;
+}
+
+.footer-box a:hover{
+	text-decoration: underline;
+}
+
+.logo-footer{
+	color: #ff7500; 
+	margin: -15px -5px;
+}
+
+
+hr{
+	background-color: #fff;
+	height: 2px;
+}
+
+.copyright{
+	margin-bottom: 0;
+	padding: 20px;
+	text-align: center;
+}
